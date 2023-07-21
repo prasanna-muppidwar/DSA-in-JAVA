@@ -1,9 +1,9 @@
-name: Update File Counts
+name: Update Java File Count Badge
 
 on:
   push:
     branches:
-      - main  # Replace 'main' with the default branch of your repository
+      - main
 
 jobs:
   update_counts:
@@ -17,12 +17,12 @@ jobs:
         id: count_java_files
         run: |
           java_files=$(find . -type f -name '*.java' | wc -l)
-          echo '{"java_files":' $java_files '}' > java_file_count.json
+          echo "{\"java_files\": $java_files }" > count-java-files.json
 
-      - name: Update README.md
+      - name: Update Badge
         run: |
-          echo "![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/${{ github.repository }}/main/java_file_count.json)" > README.md.new
-          mv README.md.new README.md
+          badge_url="https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/${{ github.repository }}/main/count-java-files.json"
+          sed -i "s|!\[Java Files\].*|$badge_url|" README.md
 
       - name: Commit and Push badge update
         run: |
