@@ -14,10 +14,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Count Java files
-        run: |
-          java_files=$(find . -type f -name '*.java' | wc -l)
-          echo "Java Files: $java_files" > java_files_badge.md
-
+  run: |
+    java_files=$(find . -type f -name '*.java' | wc -l)
+    sed -i "s/Java Files: [0-9]*/Java Files: $java_files/" README.md
 
       # Add more steps for other file types and directories if needed
 
