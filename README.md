@@ -1,6 +1,6 @@
 ![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
 
-git ls-files"./*.java"|wc-l
+svn ls -R https://github.com/prasanna-muppidwar/DSA-in-JAVA/tree/main|wc -l
 
 ## Searching 
 Searching is the process of finding a specific element or value within a collection of data. The collection can be an array, linked list, tree, hash table, or any other data structure that stores data in an organized manner.
