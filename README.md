@@ -1,4 +1,4 @@
-![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://api.github.com/repos/prasanna-muppidwar/DSA-in-JAVA/contents?ref=main)
+![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://github.com/prasanna-muppidwar/DSA-in-JAVA/tree/main/src/com/example/ArrayProblems)
 
 
 ![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
