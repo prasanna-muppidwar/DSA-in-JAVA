@@ -1,5 +1,4 @@
-https://leetcode.com/mprasanna5557/
-
+![LeetCode Stats](https://leetcard.jacoblin.cool/mprasanna5557?theme=light&font=Baloo%202)
 
 
 
