@@ -162,5 +162,5 @@ Sorting is the process of arranging the elements of a collection in a specific o
    - Advantages: Efficient for large data sets, stable, and has a consistent time complexity.
 
 
-mkdir -p src/com/example/LinearSearch
-mkdir -p src/com/example/BinarySearch to create new subfolders
+```mkdir -p src/com/example/LinearSearch
+mkdir -p src/com/example/BinarySearch to create new subfolders``` 
