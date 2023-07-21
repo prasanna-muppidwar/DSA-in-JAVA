@@ -7,10 +7,10 @@ public class LargestValue {
     public static int OptimizedApproach(int[]array){
 
         if(array==null){
-            throw new IllegalArgumentException("Array is empty or null");
+            throw new IllegalArgumentException("Array is empty or null"); //check weather array is null
 
-        }
-        int max = 0;
+        } 
+        int max = 0; //declare a max 
         for(int i=1;i<array.length;i++){
             if(array[i]>max){
                 max = array[i];
