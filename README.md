@@ -1,8 +1,9 @@
+![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
+
+
 ![LeetCode Stats](https://leetcard.jacoblin.cool/mprasanna5557?theme=light&font=Baloo%202)
 
 
-
-![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
 ## Searching 
 Searching is the process of finding a specific element or value within a collection of data. The collection can be an array, linked list, tree, hash table, or any other data structure that stores data in an organized manner.
 1. Linear Search:
