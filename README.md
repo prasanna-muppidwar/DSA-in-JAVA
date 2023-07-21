@@ -1,5 +1,5 @@
 
-![Leetcode Stats](https://leetcard.mprasanna5557/Prasanna Muppidwar)
+![Leetcode Stats](https://leetcard.mprasanna5557/PrasannaMuppidwar)
 
 
 
