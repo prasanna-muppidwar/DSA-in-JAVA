@@ -44,6 +44,7 @@ Searching is the process of finding a specific element or value within a collect
 
 
 ## Sorting
+Sorting is the process of arranging the elements of a collection in a specific order, such as ascending or descending. Sorting is an essential operation in computer science and plays a crucial role in various algorithms and applications.
 1. Bubble Sort:
    - Syntax:
      ```java
