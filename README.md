@@ -1,4 +1,4 @@
-![Java Files - Directory1](https://img.shields.io/github/directory-file-count/prasanna-muppidwar/DSA-in-JAVA/src/com/example/directory1?label=Directory1%20Java%20Files&color=blue)
+
 
 
 ![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
