@@ -1,4 +1,4 @@
-![Java Files](https://img.shields.io/github/directory-file-count/prasanna-muppidwar/DSA-in-JAVA/src?label=Java%20Files&color=blue)
+![Java Files](https://img.shields.io/github/directory-file-count/prasanna-muppidwar/DSA-in-JAVA/src/com/examples?label=Java%20Files&color=blue)
 
 
 ![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
