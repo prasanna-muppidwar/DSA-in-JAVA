@@ -1,5 +1,6 @@
 
 ## Searching 
+Searching is the process of finding a specific element or value within a collection of data. The collection can be an array, linked list, tree, hash table, or any other data structure that stores data in an organized manner.
 1. Linear Search:
    - Syntax: 
      ```java
