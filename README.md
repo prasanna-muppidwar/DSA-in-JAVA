@@ -1,4 +1,5 @@
-![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=$.java_files&url=https://api.github.com/repos/prasanna-muppidwar/DSA-in-JAVA/contents/src/com/example/ArrayProblems)
+
+![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/prasanna-muppidwar/DSA-in-JAVA/tree/main/java_file_count.json)
 
 
 
