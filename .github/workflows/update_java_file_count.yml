@@ -1,0 +1,27 @@
+name: Update Java File Count
+
+on:
+  push:
+    branches:
+      - main  # Replace 'main' with the default branch of your repository
+
+jobs:
+  update_count:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Count Java files
+        run: |
+          java_files=$(find . -name '*.java' | wc -l)
+          echo "Java Files: $java_files"
+          sed -i "s/<!-- JAVA_FILE_COUNT -->/Java Files: $java_files/" README.md
+
+      - name: Commit file count update
+        run: |
+          git config user.name "Prasanna Muppidwar"
+          git config user.email "mprasanna5557@gmail.com"
+          git commit -am "Update Java file count [skip ci]"
+          git push
