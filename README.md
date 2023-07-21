@@ -1,5 +1,7 @@
+![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
 
 ## Searching 
+Searching is the process of finding a specific element or value within a collection of data. The collection can be an array, linked list, tree, hash table, or any other data structure that stores data in an organized manner.
 1. Linear Search:
    - Syntax: 
      ```java
@@ -43,6 +45,7 @@
 
 
 ## Sorting
+Sorting is the process of arranging the elements of a collection in a specific order, such as ascending or descending. Sorting is an essential operation in computer science and plays a crucial role in various algorithms and applications.
 1. Bubble Sort:
    - Syntax:
      ```java
@@ -159,5 +162,5 @@
    - Advantages: Efficient for large data sets, stable, and has a consistent time complexity.
 
 
-mkdir -p src/com/example/LinearSearch
-mkdir -p src/com/example/BinarySearch to create new subfolders
+```mkdir -p src/com/example/LinearSearch
+mkdir -p src/com/example/BinarySearch to create new subfolders``` 
