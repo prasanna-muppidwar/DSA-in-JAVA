@@ -16,13 +16,14 @@ jobs:
       - name: Count Java files
         id: count_java_files
         run: |
-          java_files=$(find . -type f -name '*.java' | wc -l)
+          java_files=$(find src/com/examples -type f -name '*.java' | wc -l)
           echo "{\"java_files\": $java_files }" > count-java-files.json
 
       - name: Update Badge
         run: |
           badge_url="https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/${{ github.repository }}/main/count-java-files.json"
-          sed -i "s|!\[Java Files\].*|$badge_url|" README.md
+          badge_markdown="[![Java Files]($badge_url)](./count-java-files.json)"
+          sed -i "s|!\[Java Files\].*|$badge_markdown|" README.md
 
       - name: Commit and Push badge update
         run: |
