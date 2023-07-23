@@ -1,8 +1,9 @@
 
+![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
+
 ![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/prasanna-muppidwar/DSA-in-JAVA/tree/main/java_file_count.json)
 
-
-![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
+# Important Concepts
 
 ## Time Complexities
  Time complexity is a measure that helps us understand how the running time of an algorithm or the execution time of a specific operation grows with the size of the input data. It's essential to analyze time complexity to compare different algorithms and choose the most efficient one for a particular problem.
