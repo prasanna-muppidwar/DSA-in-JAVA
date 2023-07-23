@@ -17,6 +17,7 @@ public class BuyTwoChocolate {
                   return prices[0] + prices[1] > money ? money : money - (prices[0] + prices[1]);    //Used ternary operators you can use loops and conditionals
         }
     }
+    
     public static void main(String[] args) {
         int [] array = {10,10,20};
     Solution(array);
