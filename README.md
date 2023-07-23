@@ -1,9 +1,9 @@
 
 ![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
 
-![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/prasanna-muppidwar/DSA-in-JAVA/tree/main/java_file_count.json)
+![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/prasanna-muppidwar/DSA-in-JAVA/tree/main/java_file_count.json) ![LeetCode Stats](https://leetcard.jacoblin.cool/mprasanna5557?theme=light&font=Baloo%202)
 
-# Important Concepts
+# Important
 
 ## Time Complexities
  Time complexity is a measure that helps us understand how the running time of an algorithm or the execution time of a specific operation grows with the size of the input data. It's essential to analyze time complexity to compare different algorithms and choose the most efficient one for a particular problem.
@@ -68,11 +68,6 @@ For some algorithms with multiple nested loops or recursion, the space complexit
 An algorithm with exponential space complexity uses memory that grows exponentially with the input size. This is often seen in brute-force algorithms or algorithms with an exhaustive search.
 
 The goal, similar to time complexity, is to design algorithms with lower space complexity to minimize memory usage and make them more efficient in terms of memory consumption. However, it's important to strike a balance between time and space complexity, as some algorithms might trade off one for the other. Additionally, certain problems may require specific algorithms with higher space complexity due to their inherent nature.
-![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
-
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/mprasanna5557?theme=light&font=Baloo%202)
-
 
 ## Searching 
 Searching is the process of finding a specific element or value within a collection of data. The collection can be an array, linked list, tree, hash table, or any other data structure that stores data in an organized manner.
