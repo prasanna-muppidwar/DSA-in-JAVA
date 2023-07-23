@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ![Java Files](https://img.shields.io/badge/dynamic/json?color=blue&label=Java%20Files&query=java_files&url=https://raw.githubusercontent.com/prasanna-muppidwar/DSA-in-JAVA/tree/main/java_file_count.json)
 
@@ -67,6 +68,12 @@ For some algorithms with multiple nested loops or recursion, the space complexit
 An algorithm with exponential space complexity uses memory that grows exponentially with the input size. This is often seen in brute-force algorithms or algorithms with an exhaustive search.
 
 The goal, similar to time complexity, is to design algorithms with lower space complexity to minimize memory usage and make them more efficient in terms of memory consumption. However, it's important to strike a balance between time and space complexity, as some algorithms might trade off one for the other. Additionally, certain problems may require specific algorithms with higher space complexity due to their inherent nature.
+=======
+![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
+
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/mprasanna5557?theme=light&font=Baloo%202)
+>>>>>>> 0658b55bd07e01a807d2542b86e1a3e1708ba4d2
 
 
 ## Searching 
