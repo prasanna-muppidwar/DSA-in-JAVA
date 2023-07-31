@@ -1,10 +1,6 @@
 
 ![Banner](https://github.com/prasanna-muppidwar/DSA-in-JAVA/blob/main/Java%20Github%20Banner.png)
 
-![](./badge.md)
-
-
-
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/mprasanna5557?theme=light&font=Baloo%202)
 
